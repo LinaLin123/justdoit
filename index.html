@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>To do list</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+<form id="form">
+    <h1>Just do it!</h1>
+  <label>Add a to do: </label>
+  <input type="text" id="todo">
+  <br>
+  <label>Due day:</label>
+  <input type="date" id="date">
+  <br>
+  <label>Category:</label>
+  <select id="category">
+    <option value="all">All</option>
+    <option value="housework">Housework</option>
+    <option value="work">Work</option>
+    <option value="freetime">Freetime</option>
+    <option value="other">Other</option>
+  </select>
+  <button id="btn">Add</button>
+</form>
+
+<div id="form2">
+
+  <br>
+  <label for="filter">Filter by:</label>
+  <input type="text" id="filter">
+  <br>
+  
+  <div class="radiocontainer" id="categoryfilter"> 
+<p><input type="radio" name="cf" value="all" checked="checked"> All </p>
+<p><input type="radio" name="cf" value="housework"> Housework</p>
+<p><input type="radio" name="cf" value="work"> Work</p>
+<p><input type="radio" name="cf" value="freetime"> Freetime</p>
+<p><input type="radio" name="cf" value="other"> Other</p>
+    </div>
+  <ul id="collection"></ul>
+</div>
+
+  <script type="application/javascript" src="main.js"></script>
+</body>
+</html>

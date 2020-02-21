@@ -1,0 +1,135 @@
+body {
+	background-image: linear-gradient(to top, #f8c5e2, #eabde4, #dab7e6, #c5b1e8, #adade9, #97a3de, #829ad2, #6c90c5, #5a7eac, #496d93, #3a5c7b, #2d4b64);
+	margin: 5px;
+    padding: 30px 30px 30px;
+}
+
+#categoryfilter {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 5px;
+  }
+  
+  label {
+    margin-right: 15px;
+    line-height: 32px;
+  }
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 50px;
+}
+
+#form {
+    text-align: center;
+    font: 95% Verdana, Geneva, Tahoma, sans-serif;
+	max-width: 400px;
+	box-shadow: 5px 5px 5px rgb(116, 114, 115);
+	margin: 10px auto;
+	padding: 16px;
+	background:  #F7F7F7;
+}
+
+#form h1{
+	background-image: linear-gradient(to right top, #6599eb, #0fb1f5, #00c6f1, #00d8e1, #61e7cd);	padding: 20px 0;
+	font-size: 140%;
+	font-weight: 300;
+	text-align: center;
+	color: #fff;
+	margin: -16px -16px 16px -16px;
+}
+
+#form input[type="text"],
+#form input[type="date"],
+#form textarea,
+#form select 
+{
+	outline: none;
+	box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#form input[type="text"],
+#form input[type="date"],
+#form textarea,
+#form select 
+{
+	box-shadow: 5px 5px 1px rgb(116, 114, 115);
+	padding: 3%;
+	border: 3px solid rgb(49, 151, 219);
+}
+
+#btn {
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+	padding: 3%;
+background-image: linear-gradient(to right top, #6599eb, #0fb1f5, #00c6f1, #00d8e1, #61e7cd);	box-shadow: 5px 5px 1px rgb(116, 114, 115);	
+    color: #fff;
+    font-size: 20px;
+}
+
+#btn:hover{
+	background: rgb(43, 101, 116);
+}
+
+#collection {
+	list-style-type: none;
+    padding: 4px;
+}
+
+#collection li {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 3%;
+	background: rgb(67, 181, 209);
+	box-shadow: 5px 5px 1px rgb(116, 114, 115);	
+    color:white;
+    font-size: 16px;
+	align-content: left;
+	align-items: left;
+	border-style: solid;
+	border-width: 3px;
+}
+
+#collection li:hover {
+    background-color: #555;
+    color: white;
+  }
+
+  #collection li span {
+	padding: 5px 5px 10px;
+	margin: 10px;
+    text-align: left;
+	align-self: auto;
+
+}
+
+  #form2 {
+    text-align: center;
+    font: 95% Verdana, Geneva, Tahoma, sans-serif;
+	max-width: 400px;
+	box-shadow: 5px 5px 5px rgb(116, 114, 115);
+	margin: 10px auto;
+	padding: 16px;
+    background:  #F7F7F7;
+}
+
+#filter {
+    outline: none;
+	box-sizing: border-box;
+	width: 100%;
+	background: #fff;
+	margin-bottom: 4%;
+	border: 1px solid #ccc;
+	padding: 3%;
+	color: #555;
+	font: 95% Verdana, Geneva, Tahoma, sans-serif;
+}
